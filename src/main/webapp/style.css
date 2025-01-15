@@ -1,0 +1,113 @@
+body {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	background: url(images/fixedwal.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.left {
+	position: absolute;
+	left: 45px;
+	top: 20px;
+}
+
+.left img {
+	width: 125px;
+	border-radius: 70px;
+}
+
+.right1 img {
+	position: absolute;
+	right: 34px;
+	top: 100px;
+	width: 200px;
+}
+
+.mid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar li {
+	margin: 0 20px;
+}
+
+.navbar li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navbar li a:hover, .navbar li a:active {
+	text-decoration: underline;
+	color: darkorange;
+}
+
+/* Position Email Us button in top center-right */
+.right {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+}
+
+.btn {
+	background-color: black;
+	color: white;
+	padding: 6px 12px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: indianred;
+}
+
+/* Form Container */
+.container {
+	position: absolute;
+	left: 45px;
+	top: 150px;
+	padding: 10px;
+	width: 20%;
+}
+
+.container h1 {
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	display: block;
+	width: 100%;
+	padding: 6px;
+	border: 2px solid black;
+	margin: 8px 0;
+	font-size: 14px;
+	border-radius: 8px;
+}
+
+.submit-btn {
+	display: block;
+	width: 100%;
+	margin: 15px auto 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 20px;
+}
