@@ -6,7 +6,9 @@ The website also incorporates robust back-end logic to support real-time updates
 
 # Key Features
 -Responsive Design: Ensures compatibility with various devices and screen sizes.
+
 -Interactive Interface: Enhances user engagement with clear navigation and visually appealing layouts.
+
 -Real-Time Fitness Tracking: Allows users to monitor their fitness performance and progress.
 
 # Technologies
